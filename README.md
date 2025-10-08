@@ -1,6 +1,9 @@
-#  Drone Analyzer Next.js  
+<p align="center"><h1>Drone Analyzer Next.js</h1></p>  
 
 > 智慧农业多模态平台前端（基于 DJI Tello 无人机 · Next.js + Python 后端集成）
+> 
+<img width="544" height="96" alt="image" src="https://github.com/user-attachments/assets/3083ee25-d9ba-4bc2-b95e-2737490deb64" />
+
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
 [![Ant Design](https://img.shields.io/badge/Ant%20Design-5.0-blue?logo=antdesign)](https://ant.design/)
