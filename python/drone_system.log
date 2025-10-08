@@ -1,0 +1,320 @@
+2025-09-26 22:19:42,677 - optimized_drone_backend - INFO - ✅ djitellopy库加载成功
+2025-09-26 22:19:42,737 - optimized_drone_backend - INFO - ✅ OpenCV库加载成功
+2025-09-26 22:19:46,178 - optimized_drone_backend - INFO - ✅ 多模型检测器加载成功
+2025-09-26 22:19:46,210 - __main__ - INFO - ✅ 优化无人机后端服务导入成功
+2025-09-26 22:19:46,219 - enhanced_multi_model_detector - INFO - ✅ YOLO库加载成功
+2025-09-26 22:19:46,219 - enhanced_multi_model_detector - INFO - ✅ OpenCV库加载成功
+2025-09-26 22:19:46,221 - __main__ - INFO - ✅ 增强多模型检测器导入成功
+2025-09-26 22:19:46,241 - performance_monitor - INFO - ✅ psutil库加载成功
+2025-09-26 22:19:46,243 - performance_monitor - WARNING - ⚠️ memory_profiler库未安装，内存分析功能受限
+2025-09-26 22:19:46,245 - __main__ - INFO - ✅ 性能监控组件导入成功
+2025-09-26 22:19:46,271 - protocol_upgrade - INFO - ✅ msgpack库加载成功
+2025-09-26 22:19:46,273 - __main__ - INFO - ✅ 协议升级组件导入成功
+2025-09-26 22:19:46,277 - __main__ - INFO - ✅ 接口验证器导入成功
+2025-09-26 22:19:46,284 - __main__ - INFO - ✅ 错误处理器导入成功
+2025-09-26 22:19:46,290 - __main__ - INFO - 开始初始化集成无人机系统...
+2025-09-26 22:19:46,291 - error_handler - INFO - 注册恢复动作: hardware -> 重新连接无人机
+2025-09-26 22:19:46,291 - error_handler - INFO - 注册恢复动作: hardware -> 紧急降落
+2025-09-26 22:19:46,292 - __main__ - INFO - 错误处理器初始化完成
+2025-09-26 22:19:46,292 - interface_validator - INFO - 组件已注册: drone_service
+2025-09-26 22:19:46,292 - interface_validator - INFO - 组件已注册: detector
+2025-09-26 22:19:46,292 - interface_validator - INFO - 组件已注册: error_handler
+2025-09-26 22:19:46,293 - __main__ - INFO - 接口验证器初始化完成
+2025-09-26 22:19:46,293 - __main__ - WARNING - 成熟度模型文件不存在: strawberry_yolov11.pt
+2025-09-26 22:19:46,294 - __main__ - WARNING - 病害模型文件不存在: best.pt
+2025-09-26 22:19:46,295 - __main__ - ERROR - 检测器初始化失败: __init__() got an unexpected keyword argument 'maturity_model_path'
+2025-09-26 22:19:46,295 - __main__ - ERROR - 协议处理器初始化失败: __init__() got an unexpected keyword argument 'supported_versions'
+2025-09-26 22:19:46,295 - __main__ - ERROR - 无人机服务初始化失败: __init__() got an unexpected keyword argument 'websocket_port'
+2025-09-26 22:19:46,296 - error_handler - CRITICAL - 错误 [system_integration_1758896386296] system_integration: __init__() got an unexpected keyword argument 'websocket_port'
+2025-09-26 22:19:46,297 - error_handler - ERROR - 错误详情: None
+2025-09-26 22:19:46,297 - error_handler - ERROR - 错误堆栈: Traceback (most recent call last):
+  File "system_integration.py", line 298, in initialize
+    await self._initialize_drone_service()
+  File "system_integration.py", line 446, in _initialize_drone_service
+    self.drone_service = OptimizedTelloDroneService(
+TypeError: __init__() got an unexpected keyword argument 'websocket_port'
+
+2025-09-26 22:19:46,298 - __main__ - ERROR - 系统错误通知: 系统初始化失败
+2025-09-26 22:19:46,298 - __main__ - CRITICAL - 检测到严重错误，触发系统保护模式
+2025-09-26 22:19:46,298 - __main__ - WARNING - 系统进入安全模式
+2025-09-26 22:19:46,299 - error_handler - WARNING - 错误恢复失败: system_integration_1758896386296
+2025-09-26 22:19:46,299 - __main__ - ERROR - 系统初始化失败
+2025-09-26 22:19:46,299 - __main__ - ERROR - 系统启动失败
+2025-09-26 22:23:55,428 - optimized_drone_backend - INFO - ✅ djitellopy库加载成功
+2025-09-26 22:23:55,506 - optimized_drone_backend - INFO - ✅ OpenCV库加载成功
+2025-09-26 22:23:59,718 - optimized_drone_backend - INFO - ✅ 多模型检测器加载成功
+2025-09-26 22:23:59,762 - __main__ - INFO - ✅ 优化无人机后端服务导入成功
+2025-09-26 22:23:59,764 - enhanced_multi_model_detector - INFO - ✅ YOLO库加载成功
+2025-09-26 22:23:59,765 - enhanced_multi_model_detector - INFO - ✅ OpenCV库加载成功
+2025-09-26 22:23:59,766 - __main__ - INFO - ✅ 增强多模型检测器导入成功
+2025-09-26 22:23:59,788 - performance_monitor - INFO - ✅ psutil库加载成功
+2025-09-26 22:23:59,790 - performance_monitor - WARNING - ⚠️ memory_profiler库未安装，内存分析功能受限
+2025-09-26 22:23:59,793 - __main__ - INFO - ✅ 性能监控组件导入成功
+2025-09-26 22:23:59,806 - protocol_upgrade - INFO - ✅ msgpack库加载成功
+2025-09-26 22:23:59,809 - __main__ - INFO - ✅ 协议升级组件导入成功
+2025-09-26 22:23:59,814 - __main__ - INFO - ✅ 接口验证器导入成功
+2025-09-26 22:23:59,819 - __main__ - INFO - ✅ 错误处理器导入成功
+2025-09-26 22:23:59,827 - __main__ - INFO - 开始初始化集成无人机系统...
+2025-09-26 22:23:59,828 - error_handler - INFO - 注册恢复动作: hardware -> 重新连接无人机
+2025-09-26 22:23:59,828 - error_handler - INFO - 注册恢复动作: hardware -> 紧急降落
+2025-09-26 22:23:59,828 - __main__ - INFO - 错误处理器初始化完成
+2025-09-26 22:23:59,829 - interface_validator - INFO - 组件已注册: drone_service
+2025-09-26 22:23:59,829 - interface_validator - INFO - 组件已注册: detector
+2025-09-26 22:23:59,829 - interface_validator - INFO - 组件已注册: error_handler
+2025-09-26 22:23:59,830 - __main__ - INFO - 接口验证器初始化完成
+2025-09-26 22:23:59,831 - __main__ - WARNING - 成熟度模型文件不存在: strawberry_yolov11.pt
+2025-09-26 22:23:59,831 - __main__ - WARNING - 病害模型文件不存在: best.pt
+2025-09-26 22:23:59,831 - __main__ - ERROR - 检测器初始化失败: __init__() got an unexpected keyword argument 'confidence_threshold'
+2025-09-26 22:23:59,836 - __main__ - INFO - 协议处理器初始化完成
+2025-09-26 22:23:59,836 - optimized_drone_backend - INFO - ✅ 找到模型: best.pt
+2025-09-26 22:23:59,837 - optimized_drone_backend - INFO - ✅ 找到模型: strawberry_yolov11.pt
+2025-09-26 22:23:59,837 - multi_model_detector - INFO - 加载maturity模型: C:\Users\Zarce\PycharmProjects\opencvpython\electron-drone-analyzer2\drone-analyzer-nextjs\python\models\best.pt
+2025-09-26 22:24:00,190 - multi_model_detector - INFO - ✅ maturity模型加载成功
+2025-09-26 22:24:00,190 - multi_model_detector - INFO - 已加载 1 个模型
+2025-09-26 22:24:00,190 - multi_model_detector - INFO - 检测参数已更新: interval=0.15, timeout=3.0, threshold=50
+2025-09-26 22:24:00,191 - optimized_drone_backend - INFO - ✅ 多模型检测器初始化成功
+2025-09-26 22:24:00,191 - optimized_drone_backend - INFO - 📨 消息处理工作线程已启动
+2025-09-26 22:24:00,191 - optimized_drone_backend - INFO - 📊 性能监控线程已启动
+2025-09-26 22:24:00,193 - __main__ - INFO - 无人机服务初始化完成
+2025-09-26 22:24:00,219 - __main__ - ERROR - 性能监控初始化失败: __init__() missing 1 required positional argument: 'monitor'
+2025-09-26 22:24:00,219 - error_handler - CRITICAL - 错误 [system_integration_1758896640219] system_integration: 'DroneSystemValidator' object has no attribute 'validate_system'
+2025-09-26 22:24:00,221 - error_handler - ERROR - 错误详情: None
+2025-09-26 22:24:00,221 - error_handler - ERROR - 错误堆栈: Traceback (most recent call last):
+  File "system_integration.py", line 306, in initialize
+    validation_result = await self.interface_validator.validate_system()
+AttributeError: 'DroneSystemValidator' object has no attribute 'validate_system'
+
+2025-09-26 22:24:00,221 - __main__ - ERROR - 系统错误通知: 系统初始化失败
+2025-09-26 22:24:00,222 - __main__ - CRITICAL - 检测到严重错误，触发系统保护模式
+2025-09-26 22:24:00,222 - __main__ - WARNING - 系统进入安全模式
+2025-09-26 22:24:00,222 - error_handler - WARNING - 错误恢复失败: system_integration_1758896640219
+2025-09-26 22:24:00,222 - __main__ - ERROR - 系统初始化失败
+2025-09-26 22:24:00,223 - __main__ - ERROR - 系统启动失败
+2025-09-26 22:25:18,654 - optimized_drone_backend - INFO - ✅ djitellopy库加载成功
+2025-09-26 22:25:18,715 - optimized_drone_backend - INFO - ✅ OpenCV库加载成功
+2025-09-26 22:25:22,999 - optimized_drone_backend - INFO - ✅ 多模型检测器加载成功
+2025-09-26 22:25:23,038 - __main__ - INFO - ✅ 优化无人机后端服务导入成功
+2025-09-26 22:25:23,040 - enhanced_multi_model_detector - INFO - ✅ YOLO库加载成功
+2025-09-26 22:25:23,041 - enhanced_multi_model_detector - INFO - ✅ OpenCV库加载成功
+2025-09-26 22:25:23,043 - __main__ - INFO - ✅ 增强多模型检测器导入成功
+2025-09-26 22:25:23,066 - performance_monitor - INFO - ✅ psutil库加载成功
+2025-09-26 22:25:23,069 - performance_monitor - WARNING - ⚠️ memory_profiler库未安装，内存分析功能受限
+2025-09-26 22:25:23,070 - __main__ - INFO - ✅ 性能监控组件导入成功
+2025-09-26 22:25:23,078 - protocol_upgrade - INFO - ✅ msgpack库加载成功
+2025-09-26 22:25:23,081 - __main__ - INFO - ✅ 协议升级组件导入成功
+2025-09-26 22:25:23,086 - __main__ - INFO - ✅ 接口验证器导入成功
+2025-09-26 22:25:23,093 - __main__ - INFO - ✅ 错误处理器导入成功
+2025-09-26 22:25:23,098 - __main__ - INFO - 开始初始化集成无人机系统...
+2025-09-26 22:25:23,098 - error_handler - INFO - 注册恢复动作: hardware -> 重新连接无人机
+2025-09-26 22:25:23,099 - error_handler - INFO - 注册恢复动作: hardware -> 紧急降落
+2025-09-26 22:25:23,099 - __main__ - INFO - 错误处理器初始化完成
+2025-09-26 22:25:23,099 - interface_validator - INFO - 组件已注册: drone_service
+2025-09-26 22:25:23,100 - interface_validator - INFO - 组件已注册: detector
+2025-09-26 22:25:23,100 - interface_validator - INFO - 组件已注册: error_handler
+2025-09-26 22:25:23,100 - __main__ - INFO - 接口验证器初始化完成
+2025-09-26 22:25:23,101 - __main__ - WARNING - 成熟度模型文件不存在: strawberry_yolov11.pt
+2025-09-26 22:25:23,101 - __main__ - WARNING - 病害模型文件不存在: best.pt
+2025-09-26 22:25:23,102 - __main__ - ERROR - 检测器初始化失败: __init__() got an unexpected keyword argument 'confidence_threshold'
+2025-09-26 22:25:23,105 - __main__ - INFO - 协议处理器初始化完成
+2025-09-26 22:25:23,106 - optimized_drone_backend - INFO - ✅ 找到模型: best.pt
+2025-09-26 22:25:23,107 - optimized_drone_backend - INFO - ✅ 找到模型: strawberry_yolov11.pt
+2025-09-26 22:25:23,107 - multi_model_detector - INFO - 加载maturity模型: C:\Users\Zarce\PycharmProjects\opencvpython\electron-drone-analyzer2\drone-analyzer-nextjs\python\models\best.pt
+2025-09-26 22:25:23,422 - multi_model_detector - INFO - ✅ maturity模型加载成功
+2025-09-26 22:25:23,423 - multi_model_detector - INFO - 已加载 1 个模型
+2025-09-26 22:25:23,423 - multi_model_detector - INFO - 检测参数已更新: interval=0.15, timeout=3.0, threshold=50
+2025-09-26 22:25:23,424 - optimized_drone_backend - INFO - ✅ 多模型检测器初始化成功
+2025-09-26 22:25:23,425 - optimized_drone_backend - INFO - 📨 消息处理工作线程已启动
+2025-09-26 22:25:23,425 - optimized_drone_backend - INFO - 📊 性能监控线程已启动
+2025-09-26 22:25:23,426 - __main__ - INFO - 无人机服务初始化完成
+2025-09-26 22:25:23,464 - __main__ - ERROR - 性能监控初始化失败: __init__() missing 1 required positional argument: 'monitor'
+2025-09-26 22:25:23,464 - interface_validator - INFO - 开始验证无人机系统
+2025-09-26 22:25:23,465 - interface_validator - INFO - 开始验证所有接口，级别: comprehensive
+2025-09-26 22:25:23,465 - interface_validator - INFO - 接口验证完成，共 5 项结果
+2025-09-26 22:25:23,465 - __main__ - INFO - 系统验证通过
+2025-09-26 22:25:23,466 - __main__ - INFO - 系统初始化完成
+2025-09-26 22:25:23,466 - __main__ - INFO - 集成无人机系统启动成功
+2025-09-26 22:25:23,466 - __main__ - INFO - WebSocket服务器: ws://localhost:3005
+2025-09-26 22:25:23,466 - __main__ - INFO - HTTP服务器: http://localhost:8081
+2025-09-26 22:25:23,467 - __main__ - INFO - 系统启动成功，按 Ctrl+C 停止
+2025-09-26 22:25:23,467 - optimized_drone_backend - INFO - 🚀 启动优化WebSocket服务器，端口: 3005
+2025-09-26 22:25:23,468 - error_handler - INFO - 错误 [stats_updater_1758896723468] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:25:23,469 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:25:23,469 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896723468
+2025-09-26 22:25:23,479 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<OptimizedDroneService.start_websocket_server() done, defined at C:\Users\Zarce\PycharmProjects\opencvpython\electron-drone-analyzer2\drone-analyzer-nextjs\python\optimized_drone_backend.py:389> exception=OSError(10048, "error while attempting to bind on address ('127.0.0.1', 3005): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。")>
+Traceback (most recent call last):
+  File "C:\Users\Zarce\PycharmProjects\opencvpython\electron-drone-analyzer2\drone-analyzer-nextjs\python\optimized_drone_backend.py", line 415, in start_websocket_server
+    server = await websockets.serve(
+  File "C:\Users\Zarce\AppData\Local\Programs\Python\Python38\lib\site-packages\websockets\legacy\server.py", line 1132, in __await_impl__
+    server = await self._create_server()
+  File "C:\Users\Zarce\AppData\Local\Programs\Python\Python38\lib\asyncio\base_events.py", line 1463, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 3005): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+2025-09-26 22:25:33,474 - error_handler - INFO - 错误 [stats_updater_1758896733474] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:25:33,475 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:25:33,475 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896733474
+2025-09-26 22:25:43,483 - error_handler - INFO - 错误 [stats_updater_1758896743483] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:25:43,484 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:25:43,484 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896743483
+2025-09-26 22:25:53,490 - error_handler - INFO - 错误 [stats_updater_1758896753489] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:25:53,490 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:25:53,491 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896753489
+2025-09-26 22:26:03,503 - error_handler - INFO - 错误 [stats_updater_1758896763503] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:26:03,504 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:26:03,504 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896763503
+2025-09-26 22:26:13,508 - error_handler - INFO - 错误 [stats_updater_1758896773507] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:26:13,509 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:26:13,509 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896773507
+2025-09-26 22:26:23,523 - error_handler - INFO - 错误 [stats_updater_1758896783523] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:26:23,524 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:26:23,524 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896783523
+2025-09-26 22:26:33,540 - error_handler - INFO - 错误 [stats_updater_1758896793540] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:26:33,540 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:26:33,541 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896793540
+2025-09-26 22:26:43,552 - error_handler - INFO - 错误 [stats_updater_1758896803551] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:26:43,552 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:26:43,553 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896803551
+2025-09-26 22:26:53,561 - error_handler - INFO - 错误 [stats_updater_1758896813560] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:26:53,562 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:26:53,562 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896813560
+2025-09-26 22:27:03,567 - error_handler - INFO - 错误 [stats_updater_1758896823567] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:27:03,568 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:27:03,568 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896823567
+2025-09-26 22:27:13,573 - error_handler - INFO - 错误 [stats_updater_1758896833572] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:27:13,573 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:27:13,573 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896833572
+2025-09-26 22:27:23,582 - error_handler - INFO - 错误 [stats_updater_1758896843581] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:27:23,583 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:27:23,583 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896843581
+2025-09-26 22:27:33,592 - error_handler - INFO - 错误 [stats_updater_1758896853591] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:27:33,593 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:27:33,593 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896853591
+2025-09-26 22:27:43,602 - error_handler - INFO - 错误 [stats_updater_1758896863601] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:27:43,603 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:27:43,603 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896863601
+2025-09-26 22:27:53,608 - error_handler - INFO - 错误 [stats_updater_1758896873607] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:27:53,608 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:27:53,609 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896873607
+2025-09-26 22:28:03,614 - error_handler - INFO - 错误 [stats_updater_1758896883613] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:28:03,614 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:28:03,614 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896883613
+2025-09-26 22:28:13,625 - error_handler - INFO - 错误 [stats_updater_1758896893624] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:28:13,626 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:28:13,626 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896893624
+2025-09-26 22:28:23,639 - error_handler - INFO - 错误 [stats_updater_1758896903639] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:28:23,640 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:28:23,640 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896903639
+2025-09-26 22:28:33,651 - error_handler - INFO - 错误 [stats_updater_1758896913651] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:28:33,652 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:28:33,652 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896913651
+2025-09-26 22:28:43,668 - error_handler - INFO - 错误 [stats_updater_1758896923668] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:28:43,669 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:28:43,669 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896923668
+2025-09-26 22:28:53,677 - error_handler - INFO - 错误 [stats_updater_1758896933676] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:28:53,678 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:28:53,678 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896933676
+2025-09-26 22:29:03,691 - error_handler - INFO - 错误 [stats_updater_1758896943691] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:29:03,691 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:29:03,691 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896943691
+2025-09-26 22:29:13,695 - error_handler - INFO - 错误 [stats_updater_1758896953694] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:29:13,695 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:29:13,696 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896953694
+2025-09-26 22:29:23,703 - error_handler - INFO - 错误 [stats_updater_1758896963703] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:29:23,704 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:29:23,705 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896963703
+2025-09-26 22:29:33,707 - error_handler - INFO - 错误 [stats_updater_1758896973706] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:29:33,708 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:29:33,708 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896973706
+2025-09-26 22:29:43,721 - error_handler - INFO - 错误 [stats_updater_1758896983721] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:29:43,721 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:29:43,722 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896983721
+2025-09-26 22:29:53,735 - error_handler - INFO - 错误 [stats_updater_1758896993734] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:29:53,735 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:29:53,736 - error_handler - WARNING - 错误恢复失败: stats_updater_1758896993734
+2025-09-26 22:30:03,742 - error_handler - INFO - 错误 [stats_updater_1758897003741] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:30:03,742 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:30:03,743 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897003741
+2025-09-26 22:30:13,749 - error_handler - INFO - 错误 [stats_updater_1758897013748] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:30:13,750 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:30:13,750 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897013748
+2025-09-26 22:30:23,477 - error_handler - INFO - 错误 [performance_reporter_1758897023476] performance_reporter: 'SystemMonitor' object has no attribute 'generate_report'
+2025-09-26 22:30:23,477 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:30:23,478 - error_handler - WARNING - 错误恢复失败: performance_reporter_1758897023476
+2025-09-26 22:30:23,771 - error_handler - INFO - 错误 [stats_updater_1758897023770] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:30:23,772 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:30:23,772 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897023770
+2025-09-26 22:30:33,778 - error_handler - INFO - 错误 [stats_updater_1758897033778] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:30:33,779 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:30:33,779 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897033778
+2025-09-26 22:30:43,782 - error_handler - INFO - 错误 [stats_updater_1758897043781] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:30:43,782 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:30:43,783 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897043781
+2025-09-26 22:30:53,790 - error_handler - INFO - 错误 [stats_updater_1758897053789] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:30:53,790 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:30:53,791 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897053789
+2025-09-26 22:31:03,804 - error_handler - INFO - 错误 [stats_updater_1758897063803] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:31:03,804 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:31:03,804 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897063803
+2025-09-26 22:31:13,812 - error_handler - INFO - 错误 [stats_updater_1758897073812] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:31:13,813 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:31:13,813 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897073812
+2025-09-26 22:31:23,821 - error_handler - INFO - 错误 [stats_updater_1758897083820] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:31:23,821 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:31:23,822 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897083820
+2025-09-26 22:31:33,838 - error_handler - INFO - 错误 [stats_updater_1758897093838] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:31:33,838 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:31:33,839 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897093838
+2025-09-26 22:31:43,851 - error_handler - INFO - 错误 [stats_updater_1758897103851] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:31:43,852 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:31:43,852 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897103851
+2025-09-26 22:31:53,867 - error_handler - INFO - 错误 [stats_updater_1758897113866] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:31:53,868 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:31:53,868 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897113866
+2025-09-26 22:32:03,871 - error_handler - INFO - 错误 [stats_updater_1758897123871] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:32:03,872 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:32:03,872 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897123871
+2025-09-26 22:32:13,882 - error_handler - INFO - 错误 [stats_updater_1758897133881] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:32:13,883 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:32:13,883 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897133881
+2025-09-26 22:32:23,892 - error_handler - INFO - 错误 [stats_updater_1758897143892] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:32:23,892 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:32:23,893 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897143892
+2025-09-26 22:32:33,896 - error_handler - INFO - 错误 [stats_updater_1758897153895] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:32:33,896 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:32:33,896 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897153895
+2025-09-26 22:32:43,911 - error_handler - INFO - 错误 [stats_updater_1758897163911] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:32:43,912 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:32:43,912 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897163911
+2025-09-26 22:32:53,919 - error_handler - INFO - 错误 [stats_updater_1758897173918] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:32:53,919 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:32:53,919 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897173918
+2025-09-26 22:33:03,930 - error_handler - INFO - 错误 [stats_updater_1758897183929] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:33:03,931 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:33:03,931 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897183929
+2025-09-26 22:33:13,932 - error_handler - INFO - 错误 [stats_updater_1758897193931] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:33:13,932 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:33:13,932 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897193931
+2025-09-26 22:33:23,940 - error_handler - INFO - 错误 [stats_updater_1758897203940] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:33:23,941 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:33:23,941 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897203940
+2025-09-26 22:33:33,947 - error_handler - INFO - 错误 [stats_updater_1758897213946] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:33:33,947 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:33:33,947 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897213946
+2025-09-26 22:33:43,955 - error_handler - INFO - 错误 [stats_updater_1758897223955] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:33:43,956 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:33:43,956 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897223955
+2025-09-26 22:33:53,963 - error_handler - INFO - 错误 [stats_updater_1758897233963] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:33:53,965 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:33:53,965 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897233963
+2025-09-26 22:34:03,967 - error_handler - INFO - 错误 [stats_updater_1758897243966] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:34:03,967 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:34:03,967 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897243966
+2025-09-26 22:34:13,971 - error_handler - INFO - 错误 [stats_updater_1758897253970] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:34:13,971 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:34:13,971 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897253970
+2025-09-26 22:34:23,976 - error_handler - INFO - 错误 [stats_updater_1758897263975] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:34:23,976 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:34:23,977 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897263975
+2025-09-26 22:34:33,982 - error_handler - INFO - 错误 [stats_updater_1758897273981] stats_updater: object NoneType can't be used in 'await' expression
+2025-09-26 22:34:33,982 - __main__ - ERROR - 系统错误通知: 软件运行出现问题，正在尝试修复
+2025-09-26 22:34:33,983 - error_handler - WARNING - 错误恢复失败: stats_updater_1758897273981

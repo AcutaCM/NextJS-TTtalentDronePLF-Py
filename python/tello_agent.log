@@ -1,0 +1,111 @@
+2025-09-27 23:15:38,861 - __main__ - ERROR - 程序运行错误: No module named 'dotenv'
+2025-09-27 23:16:30,134 - __main__ - WARNING - Azure OpenAI配置不完整，AI功能将不可用
+2025-09-27 23:16:30,135 - __main__ - WARNING - Azure Vision配置不完整，视觉分析功能将不可用
+2025-09-27 23:16:30,135 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3004
+2025-09-27 23:16:30,149 - websockets.server - INFO - server listening on [::1]:3004
+2025-09-27 23:16:30,149 - websockets.server - INFO - server listening on 127.0.0.1:3004
+2025-09-27 23:16:30,150 - __main__ - INFO - Tello智能代理服务器启动成功
+2025-09-27 23:23:03,028 - websockets.server - INFO - connection open
+2025-09-27 23:23:03,031 - __main__ - INFO - 新的WebSocket连接: ('::1', 56944, 0, 0)
+2025-09-27 23:23:03,046 - websockets.server - INFO - connection open
+2025-09-27 23:23:03,048 - __main__ - INFO - 新的WebSocket连接: ('::1', 57013, 0, 0)
+2025-09-27 23:23:03,146 - websockets.server - INFO - connection closed
+2025-09-27 23:39:48,253 - websockets.server - INFO - connection closed
+2025-09-27 23:39:52,283 - websockets.server - INFO - connection open
+2025-09-27 23:39:52,284 - __main__ - INFO - 新的WebSocket连接: ('::1', 53910, 0, 0)
+2025-09-27 23:42:52,043 - websockets.server - INFO - connection open
+2025-09-27 23:42:52,043 - __main__ - INFO - 新的WebSocket连接: ('::1', 61397, 0, 0)
+2025-09-27 23:42:55,792 - websockets.server - INFO - connection open
+2025-09-27 23:42:55,793 - __main__ - INFO - 新的WebSocket连接: ('::1', 53947, 0, 0)
+2025-09-27 23:49:55,177 - websockets.server - INFO - connection closed
+2025-09-27 23:49:55,183 - websockets.server - INFO - connection closed
+2025-09-27 23:49:55,184 - websockets.server - INFO - connection closed
+2025-09-27 23:50:00,833 - websockets.server - INFO - connection open
+2025-09-27 23:50:00,834 - __main__ - INFO - 新的WebSocket连接: ('::1', 49262, 0, 0)
+2025-09-27 23:50:00,853 - websockets.server - INFO - connection open
+2025-09-27 23:50:00,855 - __main__ - INFO - 新的WebSocket连接: ('::1', 53965, 0, 0)
+2025-09-27 23:50:01,036 - websockets.server - INFO - connection closed
+2025-09-27 23:51:50,032 - websockets.server - INFO - connection closed
+2025-09-28 00:00:21,144 - websockets.server - INFO - connection open
+2025-09-28 00:00:21,145 - __main__ - INFO - 新的WebSocket连接: ('::1', 64749, 0, 0)
+2025-09-28 00:01:05,569 - websockets.server - INFO - connection open
+2025-09-28 00:01:05,570 - __main__ - INFO - 新的WebSocket连接: ('::1', 64521, 0, 0)
+2025-09-28 00:01:05,618 - websockets.server - INFO - connection open
+2025-09-28 00:01:05,619 - __main__ - INFO - 新的WebSocket连接: ('::1', 64237, 0, 0)
+2025-09-28 00:01:06,041 - websockets.server - INFO - connection closed
+2025-09-28 00:04:59,185 - websockets.server - INFO - connection closed
+2025-09-28 00:05:03,293 - websockets.server - INFO - connection open
+2025-09-28 00:05:03,294 - __main__ - INFO - 新的WebSocket连接: ('::1', 64537, 0, 0)
+2025-09-28 00:05:15,009 - websockets.server - INFO - connection open
+2025-09-28 00:05:15,010 - __main__ - INFO - 新的WebSocket连接: ('::1', 49337, 0, 0)
+2025-09-28 00:05:15,040 - websockets.server - INFO - connection open
+2025-09-28 00:05:15,041 - __main__ - INFO - 新的WebSocket连接: ('::1', 53040, 0, 0)
+2025-09-28 00:05:15,112 - websockets.server - INFO - connection closed
+2025-09-28 00:06:28,400 - websockets.server - INFO - connection closed
+2025-09-28 00:19:14,156 - websockets.server - INFO - connection closed
+2025-09-28 00:19:14,333 - websockets.server - INFO - connection open
+2025-09-28 00:19:14,335 - __main__ - INFO - 新的WebSocket连接: ('::1', 49666, 0, 0)
+2025-09-28 00:19:16,254 - websockets.server - INFO - connection closed
+2025-09-28 00:19:16,255 - websockets.server - INFO - connection closed
+2025-09-28 00:20:00,500 - websockets.server - INFO - connection open
+2025-09-28 00:20:00,501 - __main__ - INFO - 新的WebSocket连接: ('::1', 51209, 0, 0)
+2025-09-28 00:20:00,515 - websockets.server - INFO - connection open
+2025-09-28 00:20:00,515 - __main__ - INFO - 新的WebSocket连接: ('::1', 57917, 0, 0)
+2025-09-28 00:20:00,613 - websockets.server - INFO - connection closed
+2025-09-28 00:21:14,681 - websockets.server - INFO - connection closed
+2025-09-28 00:21:20,657 - websockets.server - INFO - connection open
+2025-09-28 00:21:20,657 - __main__ - INFO - 新的WebSocket连接: ('::1', 57652, 0, 0)
+2025-09-28 00:21:20,671 - websockets.server - INFO - connection open
+2025-09-28 00:21:20,672 - __main__ - INFO - 新的WebSocket连接: ('::1', 57307, 0, 0)
+2025-09-28 00:21:20,827 - websockets.server - INFO - connection closed
+2025-09-28 00:28:00,729 - websockets.server - INFO - connection closed
+2025-09-28 00:28:06,863 - websockets.server - INFO - connection open
+2025-09-28 00:28:06,863 - __main__ - INFO - 新的WebSocket连接: ('::1', 60548, 0, 0)
+2025-09-28 00:28:06,877 - websockets.server - INFO - connection open
+2025-09-28 00:28:06,877 - __main__ - INFO - 新的WebSocket连接: ('::1', 52735, 0, 0)
+2025-09-28 00:28:07,037 - websockets.server - INFO - connection closed
+2025-09-28 22:12:59,231 - __main__ - WARNING - Azure OpenAI配置不完整，AI功能将不可用
+2025-09-28 22:12:59,232 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3004
+2025-09-28 22:12:59,241 - __main__ - ERROR - 程序运行错误: [Errno 10048] error while attempting to bind on address ('::1', 3004, 0, 0): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+2025-09-28 22:13:39,412 - __main__ - WARNING - Azure OpenAI配置不完整，AI功能将不可用
+2025-09-28 22:13:39,413 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3005
+2025-09-28 22:13:39,422 - websockets.server - INFO - server listening on 127.0.0.1:3005
+2025-09-28 22:13:39,422 - websockets.server - INFO - server listening on [::1]:3005
+2025-09-28 22:13:39,422 - __main__ - INFO - Tello智能代理服务器启动成功
+2025-09-28 22:15:30,413 - websockets.server - INFO - connection rejected (426 Upgrade Required)
+2025-09-28 22:15:30,414 - websockets.server - INFO - connection closed
+2025-09-28 22:15:30,793 - websockets.server - INFO - connection rejected (426 Upgrade Required)
+2025-09-28 22:15:30,793 - websockets.server - INFO - connection closed
+2025-09-28 22:15:41,684 - websockets.server - INFO - connection open
+2025-09-28 22:15:41,684 - __main__ - INFO - 新的WebSocket连接: ('127.0.0.1', 64626)
+2025-09-28 22:15:41,736 - __main__ - INFO - AI设置更新成功 -> provider: ollama, model: llama3.1:8b
+2025-09-28 22:15:41,737 - __main__ - INFO - 处理自然语言命令: 起飞，然后向前移动50厘米，再降落
+2025-09-28 22:15:46,941 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-28 22:15:46,951 - __main__ - INFO - AI分析结果: 基于用户的指令，我将其转换为以下JSON格式的命令列表：
+
+```
+{
+  "commands": [
+    {
+      "action": "takeoff",
+      "parameters": {},
+      "description": "开始起飞"
+    },
+    {
+      "action": "move_forward",
+      "parameters": {"distance": 50},
+      "description": "向前移动50厘米"
+    },
+    {
+      "action": "land",
+      "parameters": {},
+      "description": "结束降落"
+    }
+  ]
+}
+```
+
+命令顺序合理，起飞后才能移动，然后再降落。
+2025-09-28 22:15:46,955 - websockets.server - INFO - connection closed
+2025-09-28 22:37:48,834 - websockets.server - INFO - connection rejected (426 Upgrade Required)
+2025-09-28 22:37:48,835 - websockets.server - INFO - connection closed

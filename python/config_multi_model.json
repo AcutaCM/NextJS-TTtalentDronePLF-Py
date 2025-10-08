@@ -1,0 +1,23 @@
+{
+  "models": {
+    "maturity_model": "models/best.pt",
+    "disease_model": "models/disease.pt"
+  },
+  "detection_settings": {
+    "maturity_confidence_threshold": 0.2,
+    "disease_confidence_threshold": 0.25,
+    "iou_threshold": 0.45,
+    "detection_interval": 0.1,
+    "track_timeout": 2.0,
+    "distance_threshold": 60
+  },
+  "tello_settings": {
+    "response_timeout": 10,
+    "video_retry_count": 3,
+    "connection_retry_count": 3
+  },
+  "websocket_settings": {
+    "port": 3003,
+    "host": "localhost"
+  }
+}

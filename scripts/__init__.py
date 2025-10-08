@@ -1,0 +1,1 @@
+# Mark scripts as a Python subpackage

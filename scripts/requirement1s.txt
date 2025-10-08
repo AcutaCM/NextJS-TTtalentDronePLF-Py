@@ -1,0 +1,34 @@
+# 现有依赖
+websockets>=11.0.0
+asyncio
+
+# Tello智能代理依赖
+djitellopy>=2.5.0
+Pillow>=10.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+djitellopy>=2.4.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+websockets>=11.0
+python-dotenv>=1.0.0
+openai>=1.30.0
+# Azure OpenAI 可选
+azure-identity>=1.13.0
+azure-keyvault-secrets>=4.7.0
+# 已移除: azure-ai-vision-imageanalysis
+azure-identity>=1.15.0
+azure-keyvault-secrets>=4.7.0
+openai>=1.30.0
+
+# 配置和工具
+python-dotenv>=1.0.0
+pydantic[email]>=2.5.0
+pydantic-settings>=2.0.0
+click>=8.1.0
+
+# 开发和测试
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0

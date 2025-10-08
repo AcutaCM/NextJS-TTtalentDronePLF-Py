@@ -1,0 +1,162 @@
+2025-09-28 19:06:04,926 - __main__ - INFO - Ollama客户端初始化成功 - 端点: http://localhost:11434/v1, 模型: llama3.1:8b
+2025-09-28 19:06:04,927 - __main__ - WARNING - Azure Vision配置不完整，视觉分析功能将不可用
+2025-09-28 19:06:04,927 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3004
+2025-09-28 19:06:04,944 - __main__ - ERROR - 程序运行错误: [Errno 10048] error while attempting to bind on address ('::1', 3004, 0, 0): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+2025-09-28 19:07:35,187 - __main__ - INFO - Ollama客户端初始化成功 - 端点: http://localhost:11434/v1, 模型: llama3.1:8b
+2025-09-28 19:07:35,188 - __main__ - WARNING - Azure Vision配置不完整，视觉分析功能将不可用
+2025-09-28 19:07:35,188 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3004
+2025-09-28 19:07:35,203 - __main__ - ERROR - 程序运行错误: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 3004): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+2025-09-28 21:19:48,873 - __main__ - WARNING - OpenAI SDK不可用，跳过AI客户端初始化
+2025-09-28 21:19:48,873 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3004
+2025-09-28 21:19:48,890 - websockets.server - INFO - server listening on 127.0.0.1:3004
+2025-09-28 21:19:48,890 - websockets.server - INFO - server listening on [::1]:3004
+2025-09-28 21:19:48,890 - __main__ - INFO - Tello智能代理服务器启动成功
+2025-09-28 21:23:31,387 - __main__ - INFO - Ollama客户端初始化成功 - 端点: http://localhost:11434/v1, 模型: llama3.1:8b
+2025-09-28 21:23:31,388 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3004
+2025-09-28 21:23:31,397 - websockets.server - INFO - server listening on 127.0.0.1:3004
+2025-09-28 21:23:31,397 - websockets.server - INFO - server listening on [::1]:3004
+2025-09-28 21:23:31,398 - __main__ - INFO - Tello智能代理服务器启动成功
+2025-09-28 21:24:21,184 - __main__ - INFO - Ollama客户端初始化成功 - 端点: http://localhost:11434/v1, 模型: llama3.1:8b
+2025-09-28 21:24:21,185 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3004
+2025-09-28 21:24:21,195 - websockets.server - INFO - server listening on 127.0.0.1:3004
+2025-09-28 21:24:21,195 - websockets.server - INFO - server listening on [::1]:3004
+2025-09-28 21:24:21,195 - __main__ - INFO - Tello智能代理服务器启动成功
+2025-09-28 21:28:44,686 - __main__ - INFO - Ollama客户端初始化成功 - 端点: http://localhost:11434/v1, 模型: llama3.1:8b
+2025-09-28 21:28:44,687 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3004
+2025-09-28 21:28:44,696 - websockets.server - INFO - server listening on [::1]:3004
+2025-09-28 21:28:44,696 - websockets.server - INFO - server listening on 127.0.0.1:3004
+2025-09-28 21:28:44,697 - __main__ - INFO - Tello智能代理服务器启动成功
+2025-09-28 21:29:24,236 - __main__ - WARNING - Azure OpenAI配置不完整，AI功能将不可用
+2025-09-28 21:29:24,237 - __main__ - INFO - 启动Tello智能代理服务器: localhost:3004
+2025-09-28 21:29:24,244 - websockets.server - INFO - server listening on [::1]:3004
+2025-09-28 21:29:24,245 - websockets.server - INFO - server listening on 127.0.0.1:3004
+2025-09-28 21:29:24,245 - __main__ - INFO - Tello智能代理服务器启动成功
+2025-09-28 21:29:29,794 - websockets.server - INFO - connection open
+2025-09-28 21:29:29,795 - __main__ - INFO - 新的WebSocket连接: ('127.0.0.1', 57793)
+2025-09-28 21:29:29,841 - __main__ - INFO - AI设置更新成功 -> provider: ollama, model: llama3.1:8b
+2025-09-28 21:29:29,843 - __main__ - INFO - 处理自然语言命令: 起飞，然后向前移动50厘米，再降落
+2025-09-28 21:29:30,346 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-09-28 21:29:30,347 - __main__ - ERROR - AI命令分析失败: Error code: 404 - {'error': {'message': "model 'llama3.1:8b' not found", 'type': 'api_error', 'param': None, 'code': None}}
+2025-09-28 21:29:30,348 - websockets.server - INFO - connection closed
+2025-09-28 21:52:50,412 - websockets.server - INFO - connection open
+2025-09-28 21:52:50,412 - __main__ - INFO - 新的WebSocket连接: ('127.0.0.1', 58852)
+2025-09-28 21:52:50,422 - __main__ - INFO - AI设置更新成功 -> provider: ollama, model: llama3.1:8b
+2025-09-28 21:52:50,424 - __main__ - INFO - 处理自然语言命令: 起飞，然后向前移动50厘米，再降落
+2025-09-28 21:52:59,137 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-28 21:52:59,157 - __main__ - INFO - AI分析结果: 基于用户的指令，我将其转换为JSON格式的命令列表：
+
+```
+{
+  "commands": [
+    {
+      "action": "takeoff",
+      "parameters": {},
+      "description": "开始起飞"
+    },
+    {
+      "action": "move_forward",
+      "parameters": {"distance": 50},
+      "description": "向前移动50厘米"
+    },
+    {
+      "action": "land",
+      "parameters": {},
+      "description": "降落"
+    }
+  ]
+}
+```
+
+命令顺序合理，起飞后才能移动，然后再降落。
+2025-09-28 21:52:59,161 - websockets.server - INFO - connection closed
+2025-09-28 21:55:35,710 - websockets.server - INFO - connection open
+2025-09-28 21:55:35,711 - __main__ - INFO - 新的WebSocket连接: ('127.0.0.1', 53258)
+2025-09-28 21:55:35,720 - __main__ - INFO - AI设置更新成功 -> provider: ollama, model: llama3.1:8b
+2025-09-28 21:55:35,721 - __main__ - INFO - 处理自然语言命令: 起飞，然后向前移动50厘米，再降落
+2025-09-28 21:55:39,895 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-28 21:55:39,896 - __main__ - INFO - AI分析结果: 以下是转换后的JSON格式的命令列表：
+
+```
+{
+  "commands": [
+    {
+      "action": "takeoff",
+      "description": "开始起飞"
+    },
+    {
+      "action": "move_forward",
+      "parameters": {"distance": 50},
+      "description": "向前移动50厘米"
+    },
+    {
+      "action": "land",
+      "description": "开始降落"
+    }
+  ]
+}
+```
+
+命令顺序合理，起飞后才能移动，然后再降落。
+2025-09-28 21:55:39,898 - websockets.server - INFO - connection closed
+2025-09-28 22:08:24,149 - websockets.server - INFO - connection open
+2025-09-28 22:08:24,149 - __main__ - INFO - 新的WebSocket连接: ('127.0.0.1', 61584)
+2025-09-28 22:08:24,159 - __main__ - INFO - AI设置更新成功 -> provider: ollama, model: llama3.1:8b
+2025-09-28 22:08:24,160 - __main__ - INFO - 处理自然语言命令: 起飞，然后向前移动50厘米，再降落
+2025-09-28 22:08:32,193 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-28 22:08:32,194 - __main__ - INFO - AI分析结果: 以下是转换后的JSON格式的命令列表：
+
+```
+{
+  "commands": [
+    {
+      "action": "takeoff",
+      "parameters": {},
+      "description": "开始起飞"
+    },
+    {
+      "action": "move_forward",
+      "parameters": {"distance": 50},
+      "description": "向前移动50厘米"
+    },
+    {
+      "action": "land",
+      "parameters": {},
+      "description": "降落"
+    }
+  ]
+}
+```
+
+命令顺序合理，起飞后才能移动，然后再降落。
+2025-09-28 22:08:32,196 - websockets.server - INFO - connection closed
+2025-09-28 22:13:09,428 - websockets.server - INFO - connection open
+2025-09-28 22:13:09,428 - __main__ - INFO - 新的WebSocket连接: ('127.0.0.1', 61759)
+2025-09-28 22:13:09,437 - __main__ - INFO - AI设置更新成功 -> provider: ollama, model: llama3.1:8b
+2025-09-28 22:13:09,439 - __main__ - INFO - 处理自然语言命令: 起飞，然后向前移动50厘米，再降落
+2025-09-28 22:13:13,888 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-28 22:13:13,889 - __main__ - INFO - AI分析结果: 以下是转换后的JSON格式的命令列表：
+
+```
+{
+  "commands": [
+    {
+      "action": "takeoff",
+      "parameters": {},
+      "description": "开始起飞"
+    },
+    {
+      "action": "move_forward",
+      "parameters": {"distance": 50},
+      "description": "向前移动50厘米"
+    },
+    {
+      "action": "land",
+      "parameters": {},
+      "description": "结束降落"
+    }
+  ]
+}
+```
+
+命令顺序合理，起飞后才能移动，然后再降落。
+2025-09-28 22:13:13,891 - websockets.server - INFO - connection closed

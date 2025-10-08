@@ -1,0 +1,1 @@
+export const DEFAULT_ADMIN_EMAIL = 'actuacm@163.com';
