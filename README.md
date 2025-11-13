@@ -145,7 +145,92 @@ npm run start
 > ```bash
 > set NODE_OPTIONS=--max_old_space_size=4096
 > ```
+# Unipixel+WSL配置指南
 
+### 1.在Ubuntu22.04中安装miniconda
+
+运行以下四个命令，下载并安装适用于您选择的芯片架构的最新 Linux 安装程序。逐行，这些命令：
+
+- 在主目录中创建一个名为“miniconda3”的新目录。
+- 下载适用于您选择的芯片架构的 Linux Miniconda 安装脚本，并将脚本保存为 miniconda3 目录。`miniconda.sh`
+- 使用 bash 在静默模式下运行安装脚本。`miniconda.sh`
+- 安装完成后删除安装脚本文件。`miniconda.sh`
+
+```
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm ~/miniconda3/miniconda.sh
+```
+
+1. 安装后，关闭并重新打开终端应用程序或通过运行以下命令刷新它：
+
+   ```
+   source ~/miniconda3/bin/activate
+   ```
+
+2. 然后，通过运行以下命令在所有可用的 shell 上初始化 conda：
+
+   ```
+   conda init --all
+   ```
+
+   使用 会修改某些 shell 配置文件，例如 或 。要测试哪些文件将在您的系统上修改，请运行带有标志的命令。`conda init``.bash_profile``.zshrc``conda init``--dry-run`
+
+   ```
+   conda init --all --dry-run
+   ```
+
+   包括可防止 conda 进行任何实际文件更新。`--dry-run`
+
+### 2.安裝環境
+
+1. 從 GitHub 複製該倉庫。
+
+```shell
+git clone https://github.com/PolyU-ChenLab/UniPixel.git
+cd UniPixel
+```
+
+2. 設定虛擬環境以及安装依赖
+
+```shell
+conda create -n unipixel python=3.12 -y
+conda activate unipixel
+
+pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu128
+
+pip install flash_attn==2.8.2 --no-build-isolation 
+```
+
+3. 安裝依賴項。
+
+```shell
+pip install -r requirements.txt
+```
+
+對於 NPU 用戶，請安裝 CPU 版本的 PyTorch [`torch_npu`](https://github.com/Ascend/pytorch)。
+
+### 3. 安装FASTAPI环境
+
+```bash
+pip install fastapi
+```
+
+### 4. 复制开放服务脚本`service.py`到Unipixel-3B文件夹下
+
+```
+cp ./service.py ./Unipixel-3B
+```
+
+### 5.运行脚本
+
+```
+conda activate unipixel
+python service.py
+```
+
+等待脚本下载完模型文件即可使用对应端口传递的数据
 ---
 
 ##  后端接口说明（简要）
